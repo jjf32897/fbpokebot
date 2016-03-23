@@ -6,10 +6,11 @@
 # browser.set_handle_robots(False)
 # browser.open('http://facebook.com/pokes')
 
+# fill in facebook login information, or pass in through environment variables
 LOGIN_EMAIL = ''
 LOGIN_PASS = ''
 
-import time
+import time, os
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
